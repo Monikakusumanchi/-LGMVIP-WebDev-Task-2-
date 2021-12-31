@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.body{
+    height: 97vh;
+    width: 100%;
+    background-image: url(D:\MANASWITHA\reactimages\background.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    scroll-behavior: none;
+}
+nav{
+    width: 70%;
+    margin-left: 1100px;
+    height: 10vh;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul button{
+    text-decoration: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    align-content: right;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.8s;
+}
+.container{
+    padding: 20px;
+}
+.site-info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    border: 2px solid white;
+    padding: 10px 20px;
+    width: 300px;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.title:hover{
+    color: black;
+    background-color: white;
+    transition: 0.8s;
+}
+.sub-title{
+    font-size: 28px;
+    letter-spacing: 6px;
+    padding: 10px 0;
+    color: white;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.social{
+    padding-left: 20px;
+}
+.social i{
+    font-size: 18px;
+    padding-right: 15px;
+}
+.copyright{
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-right: 20px;
+    color: white;
+    margin-top: 600px;
+    margin-left: 1150px;
+}
